@@ -8,7 +8,7 @@ import time
 read = ser.readline()
 time.sleep(5)
 read = ser.readline()
-
+ser.write('1000')
 ser.close()
 
 #print read
