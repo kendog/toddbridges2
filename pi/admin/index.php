@@ -24,6 +24,9 @@ $conn->close();
 
 	<body>
 
+		<video width="800" height="600" controls>
+			<source src="http://picam:8080/webcam.ogg" type="video/ogg">
+		</video>
 
 		<ul class="analogin">
 <?php
